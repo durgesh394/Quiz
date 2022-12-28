@@ -1,0 +1,123 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61dafb;
+}
+
+
+
+.App-header {
+  width: 50%;
+  height: 70vh;
+  background-color: #06283D;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* menu Components style start */
+.menuBtn {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: -20%;
+}
+
+.menuBtn input {
+  outline: none;
+  border: none;
+  padding: 12px;
+  width: 50%;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.menuBtn button {
+
+  outline: none;
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+}
+
+/* menu components style end */
+
+
+/* StartQuiZ Components style start */
+
+.startContainer {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.questionContainer {
+  width: 50%;
+
+}
+
+.questionContainer h2 {
+  color: #fff;
+  margin: 10px;
+}
+
+.optionCon {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.optionCon button {
+  padding: 5px;
+  outline: none;
+  border: none;
+  margin: 5px;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.optionCon button:hover {
+  background-color: #61dafb;
+}
+
+.optionCon button:active {
+  background-color: #61dafb;
+}
+
+.nextBtnCon {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* StartQuiZ Components style End */
+
+/* EndQuiz components Style start */
+.endQuizCon {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.endQuizCon h1 {
+  color: #fff;
+}
+
+/* EndQuiz components Style end */
